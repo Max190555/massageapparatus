@@ -214,7 +214,7 @@
         .video-block {
             text-align: center;
         }
-        
+
         /* ---------- ФУТЕР ---------- */
 
         footer {
@@ -229,8 +229,6 @@
           font-size: 20px;
           line-height: 1.5;
         }
-
-        /* ---------- просмотр фото ---------- */
 
         .lightbox{
           display:none;
@@ -264,12 +262,12 @@
         .video-block video{
           width: 500px;
           height: 300px;
-          object-fit: cover; /* сохраняет пропорции, обрезая лишнее */
+          object-fit: cover; 
           border-radius: 12px;
           cursor: pointer;
         }
 
-        /* Мобильные устройства */
+        
 @media (max-width: 768px) {
     .hero-content {
         margin-left: 20px;
@@ -307,15 +305,14 @@
 }
 
         .main-button, .social a {
-            display: inline-block; /* нужно для transform */
-            transition: transform 0.2s; /* плавное увеличение */
+            display: inline-block; 
+            transition: transform 0.2s; 
         }
 
         .main-button:hover, .social a:hover {
-            transform: scale(1.05); /* увеличиваем на 5% */
+            transform: scale(1.05); 
         }
 
-        /* ---------- аппарат ---------- */
 
 .device-block{
 display:flex;
@@ -361,6 +358,16 @@ box-shadow:0 6px 20px rgba(0,0,0,0.25);
 background:#c62828;
 transform:scale(1.07);
 }
+
+body, p, h1, h2, h3, h4, h5, h6, a, div, span {
+    font-weight: bold; 
+}
+
+strong {
+    font-size: 22px; 
+    font-weight: bolder; 
+}
+
 
     </style>
 
@@ -578,7 +585,6 @@ transform:scale(1.07);
             Каждая процедура направлена на улучшение самочувствия,
             восстановление энергии и заботу о здоровье клиента.
     
-            <!-- Фотография мастера -->
             <div class="master-photo" style="text-align:center; margin-top:20px;">
                 <img src="images/IMG_20260309_144544.jpg" alt="Фото мастера"
                     style="width:300px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.2);">
@@ -601,7 +607,6 @@ transform:scale(1.07);
 
         <div class="gallery">
 
-            <!-- ДОБАВЛЯЙ ФОТО СЮДА -->
 
             <img src="images/IMG_20260308_153024.webp">
             <img src="images/IMG_20260308_153026.webp">
