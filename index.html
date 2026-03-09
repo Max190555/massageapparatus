@@ -214,17 +214,7 @@
         .video-block {
             text-align: center;
         }
-
-        video {
-            width: 350px;
-            border-radius: 10px;
-        }
-
-
-
-
-
-
+        
         /* ---------- ФУТЕР ---------- */
 
         footer {
@@ -236,9 +226,9 @@
         }
 
         footer p {
-    font-size: 20px;
-    line-height: 1.5;
-}
+          font-size: 20px;
+          line-height: 1.5;
+        }
 
         /* ---------- просмотр фото ---------- */
 
@@ -265,17 +255,18 @@
           display:flex;
         }
 
-        .video-block{
-          display:flex;
-          flex-wrap:wrap;
-          justify-content:center;
-          gap:20px;
-        }
-
         .video-block video{
           width:280px;
           border-radius:12px;
           cursor:pointer;
+        }
+
+        .video-block video{
+          width: 500px;
+          height: 300px;
+          object-fit: cover; /* сохраняет пропорции, обрезая лишнее */
+          border-radius: 12px;
+          cursor: pointer;
         }
 
         /* Мобильные устройства */
