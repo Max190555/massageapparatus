@@ -319,6 +319,53 @@
             transform: scale(1.05); /* увеличиваем на 5% */
         }
 
+        /* ---------- аппарат ---------- */
+
+.device-block{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.device-photo img{
+width:300px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.device-description img{
+width:520px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* ---------- кнопки записи ---------- */
+
+.buttons{
+display:flex;
+gap:20px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.main-button{
+background:#e53935;
+padding:20px 40px;
+border-radius:40px;
+color:white;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+box-shadow:0 6px 20px rgba(0,0,0,0.25);
+}
+
+.main-button:hover{
+background:#c62828;
+transform:scale(1.07);
+}
+
     </style>
 
 </head>
@@ -335,7 +382,7 @@
         <div class="topbar">
 
             <div class="logo">
-                PION
+                Кабинет аппаратного массажа
             </div>
 
             <div class="nav">
@@ -346,15 +393,7 @@
 
             </div>
 
-            <div class="social">
-
-                <!-- ССЫЛКА TELEGRAM -->
-                <a href="https://t.me/iegorih999" target="_blank">
-                    Telegram
-                </a>
-
-
-            </div>
+            
 
         </div>
 
@@ -362,7 +401,7 @@
         <div class="hero-content">
 
             <h1>
-                СТУДИЯ<br>
+                КАБИНЕТ<br>
                 МАССАЖА
             </h1>
 
@@ -371,10 +410,18 @@
                 лимфодренажа и восстановления организма
             </p>
 
-            <a class="main-button" href="https://max.ru/u/f9LHodD0cOIMwcHBdvEoppe82hNHsrcv3k6mMXVFUhp4jtH0WNmYAln4yxw"
-                target="_blank">
-                Записаться
-            </a>
+            <div class="buttons">
+            
+                <a class="main-button" href="https://max.ru/u/f9LHodD0cOIMwcHBdvEoppe82hNHsrcv3k6mMXVFUhp4jtH0WNmYAln4yxw"
+                    target="_blank">
+                    Записаться в MAX
+                </a>
+            
+                <a class="main-button" href="https://t.me/iegorih999" target="_blank">
+                    Записаться в Telegram
+                </a>
+            
+            </div>
 
         </div>
 
@@ -389,21 +436,45 @@
 
     <div class="container">
 
-        <h2>О процедуре</h2>
-
-        <div class="about-device">
-
-            Аппаратный массаж помогает уменьшить объемы тела, улучшить состояние кожи
-            и ускорить лимфодренаж.
-
-            Процедура способствует выведению лишней жидкости,
-            улучшает кровообращение и помогает бороться с целлюлитом.
-
-            Массаж безопасный, комфортный и подходит для коррекции фигуры
-            и восстановления тонуса кожи.
-
+        <h2>Аппарат для массажа</h2>
+        
+        <div class="device-block">
+        
+            <div class="device-photo">
+                <img src="images/fonapparat.webp">
+            </div>
+        
+            <div class="device-description">
+                <img src="images/fonopisanie.webp">
+            </div>
+        
         </div>
 
+    </div>
+
+    <div class="container">
+    
+        <h2>О процедуре</h2>
+    
+        <div class="about-device">
+    
+            <p>
+                Аппаратный массаж помогает уменьшить объемы тела,
+                улучшить состояние кожи и ускорить лимфодренаж.
+            </p>
+    
+            <p>
+                Процедура способствует выведению лишней жидкости,
+                улучшает кровообращение и помогает бороться с целлюлитом.
+            </p>
+    
+            <p>
+                Массаж безопасный, комфортный и подходит для
+                коррекции фигуры и восстановления тонуса кожи.
+            </p>
+    
+        </div>
+    
     </div>
 
 
@@ -472,6 +543,24 @@
             <strong>1500 ₽</strong>
         </div>
 
+        <div class="price">
+            Массаж классический женский 1 час -
+            <strong>3000 ₽</strong>
+        </div>
+
+        <div class="price">
+            Лимфодреннажный 1 час -
+            <strong>3000 ₽</strong>
+        </div>
+
+        <div class="price">
+            Антицеллюлитный 1 час -
+            <strong>3000 ₽</strong>
+        </div>
+
+        <h2>А так же все виды массажа</h2>
+
+
     </div>
 
 
@@ -517,23 +606,14 @@
 
             <!-- ДОБАВЛЯЙ ФОТО СЮДА -->
 
-            <img src="images/IMG_20260308_153022.webp">
             <img src="images/IMG_20260308_153024.webp">
             <img src="images/IMG_20260308_153026.webp">
             <img src="images/IMG_20260308_153027.webp">
             <img src="images/IMG_20260308_153029.webp">
-            <img src="images/IMG_20260308_153033.webp">
             <img src="images/IMG_20260308_153036.webp">
-            <img src="images/IMG_20260308_153038.webp">
-            <img src="images/IMG_20260308_153039.webp">
             <img src="images/IMG_20260308_153109.webp">
-            <img src="images/IMG_20260308_153041.webp">
-            <img src="images/IMG_20260308_153042.webp">
-            <img src="images/IMG_20260308_153044.webp">
             <img src="images/IMG_20260308_153059.webp">
             <img src="images/IMG_20260308_153134.webp">
-            <img src="images/IMG_20260308_153102.webp">
-            <img src="images/IMG_20260308_153103.webp">
             <img src="images/IMG_20260308_153111.webp">
             <img src="images/IMG_20260308_153113.webp">
             <img src="images/IMG_20260308_153100.webp">
@@ -584,7 +664,7 @@
             </video>
         
             <video controls>
-                <source src="videos/VID_20260308_152858.mp4" type="video/mp4">
+                <source src="videos/VID_20260309_125040.mp4" type="video/mp4">
             </video>
         
         </div>
@@ -600,8 +680,11 @@
 
     <footer>
 
-        Контакты: +7 (977) 375-69-79
-
+        <p>
+            Адрес: Метро Сокол / Полежаевская,
+            ул. Новопесчаная дом 17
+        </p>
+    
     </footer>
 
     <div id="lightbox" class="lightbox">
